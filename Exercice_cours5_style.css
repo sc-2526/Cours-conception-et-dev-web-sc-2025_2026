@@ -1,7 +1,15 @@
 h1{
-  text-align: center
+  text-align: center;
+  color: rgb(255 182 193);
+  background-color: green;
+  border-style: dotted;
+  border-radius: 20px, 50%;
 }
 p{
   color: blue;
   font-size: 12px;
+}
+table{
+  border-width: medium;
+  border-style: solid;
 }
