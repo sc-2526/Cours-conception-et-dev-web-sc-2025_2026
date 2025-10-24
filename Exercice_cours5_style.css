@@ -13,3 +13,9 @@ table{
   border-width: medium;
   border-style: solid;
 }
+.clickable{
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
