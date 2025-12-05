@@ -1,4 +1,7 @@
-h1{
-  color: pink; 
-  font-size: 82px;
+  h1{
+  text-align: center;
+  color: rgb(255 182 193);
+  background-color: blue;
+  border-style: dotted;
+  border-radius: 20px, 50%;
 }
