@@ -11,6 +11,7 @@ body {
   background-color: #f4f4f4;
   padding: 20px;
 }
+
 h1 {
   font-size: 60px;
   text-align: center;
@@ -27,7 +28,7 @@ h2, h3 {
 .navbar ul {
   list-style: none;
   display: flex;
-  flex-wrap: wrap;      
+  flex-wrap: wrap;
   justify-content: center;
   background-color: #333;
   padding: 15px;
@@ -36,17 +37,19 @@ h2, h3 {
 }
 
 .navbar li {
-  margin: 5px 15px;    
+  margin: 5px 15px;
 }
+
 .navbar a {
   text-decoration: none;
-  color: white;
+  color: white;   
   font-weight: bold;
-  font-size: 18px;      
+  font-size: 20px;
   transition: 0.3s;
 }
+
 .navbar a:hover {
-  color: #3498db;        
+  color: #3498db;  
 }
 .row {
   display: flex;
@@ -57,7 +60,7 @@ h2, h3 {
 
 .column {
   flex: 1;
-  min-width: 300px; 
+  min-width: 300px;
   background: white;
   padding: 25px;
   border-radius: 8px;
@@ -65,44 +68,53 @@ h2, h3 {
 }
 
 .video-item, .img-item {
-  margin-bottom: 40px; 
-  padding: 20px;
+  margin-bottom: 50px; 
+  padding: 30px;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 15px;
   text-align: center;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-iframe, img {
-  max-width: 100%;     
+
+.img-item img {
+  max-width: 500px;
+  width: 100%;
   height: auto;
   border-radius: 8px;
-  margin: 15px 0;
 }
+
+.video-item iframe {
+  width: 800px;        
+  height: 450px;       
+  max-width: 100%;  
+  border-radius: 10px;
+  border: none;
+}
+
 figcaption {
   font-style: italic;
   color: #666;
-  max-width: 80%;
-  margin: 10px auto;
+  margin-top: 15px;
 }
+
 table {
   width: 100%;
   border-collapse: collapse;
   margin: 20px 0;
   background: white;
 }
+
 th, td {
   border: 1px solid #ddd;
   padding: 12px;
   text-align: left;
 }
+
 th {
   background-color: #333;
   color: white;
 }
-tr:hover {
-  background-color: #f9f9f9; /* Pseudo-classe pour le tableau */
-}
-footer {
+#footer-page {
   text-align: center;
   font-weight: bold;
   margin-top: 50px;
