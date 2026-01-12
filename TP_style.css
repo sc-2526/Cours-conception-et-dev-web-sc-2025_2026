@@ -95,3 +95,22 @@ figcaption {
     max-width: 560px;
     margin: 0 auto;     
 }
+.row {
+    display: flex;        
+    flex-wrap: wrap;      
+    gap: 20px;            
+    margin: 20px 0;
+}
+.column {
+    flex: 1;               
+    min-width: 300px;      
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+img, iframe, video {
+    max-width: 100%;       
+    height: auto;        
+    border-radius: 5px;
+}
