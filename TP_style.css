@@ -67,4 +67,20 @@ footer {
   text-align: center;
   font-weight: bold;
 }
-  
+  .video-item {
+    margin-bottom: 40px; /* Espace entre les blocs de vidéos */
+    text-align: center;  /* Centre le titre et la légende */
+}
+
+.video-item iframe {
+    max-width: 100%;    /* Rend la vidéo responsive sur mobile */
+    border-radius: 8px; /* Optionnel : arrondit les coins de la vidéo */
+    margin: 15px 0;
+}
+
+figcaption {
+    font-style: italic;
+    color: #555;
+    max-width: 560px;
+    margin: 0 auto;     /* Centre le bloc de texte */
+}
