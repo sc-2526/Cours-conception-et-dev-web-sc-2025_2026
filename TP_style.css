@@ -39,12 +39,6 @@ body {
   font-weight: bold;
 }
 .navbar a:hover { color: #3498db; }
-.img {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-  margin-bottom: 20px;
-}
 .row {
   display: flex;
   flex-wrap: wrap; 
@@ -76,6 +70,17 @@ footer {
   .video-item {
     margin-bottom: 40px; 
     text-align: center; 
+}
+.video-item, .img-item {
+    margin-bottom: 40px; 
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+iframe, img {
+    max-width: 100%;
+    height: auto;
 }
 
 .video-item iframe {
