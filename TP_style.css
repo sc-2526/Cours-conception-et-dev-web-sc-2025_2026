@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box; 
 }
 
 body {
@@ -13,7 +13,7 @@ body {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 60px; 
   text-align: center;
   color: rgb(255, 182, 193); 
   margin: 40px 0 20px 0;
@@ -24,33 +24,33 @@ h2, h3 {
   margin-bottom: 15px;
   color: #333;
 }
-
 .navbar ul {
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap;      
   justify-content: center;
-  background-color: #333;
+  background-color: gray;
   padding: 15px;
   margin-bottom: 30px;
   border-radius: 8px;
 }
 
 .navbar li {
-  margin: 5px 15px;
+  margin: 5px 15px;     
 }
 
 .navbar a {
   text-decoration: none;
-  color: white;   
+  color: white;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;       
   transition: 0.3s;
 }
 
 .navbar a:hover {
-  color: #3498db;  
+  color: #333;    
 }
+
 .row {
   display: flex;
   flex-wrap: wrap; 
@@ -60,7 +60,7 @@ h2, h3 {
 
 .column {
   flex: 1;
-  min-width: 300px;
+  min-width: 300px; 
   background: white;
   padding: 25px;
   border-radius: 8px;
@@ -68,33 +68,26 @@ h2, h3 {
 }
 
 .video-item, .img-item {
-  margin-bottom: 50px; 
-  padding: 30px;
+  margin-bottom: 40px; 
+  padding: 20px;
   background-color: white;
-  border-radius: 15px;
+  border-radius: 10px;
   text-align: center;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.img-item img {
-  max-width: 500px;
-  width: 100%;
+iframe, img {
+  max-width: 100%;      
   height: auto;
   border-radius: 8px;
-}
-
-.video-item iframe {
-  width: 800px;        
-  height: 450px;       
-  max-width: 100%;  
-  border-radius: 10px;
-  border: none;
+  margin: 15px 0;
 }
 
 figcaption {
   font-style: italic;
   color: #666;
-  margin-top: 15px;
+  max-width: 80%;
+  margin: 10px auto;
 }
 
 table {
@@ -114,7 +107,12 @@ th {
   background-color: #333;
   color: white;
 }
-#footer-page {
+
+tr:hover {
+  background-color: #f9f9f9; 
+}
+
+footer {
   text-align: center;
   font-weight: bold;
   margin-top: 50px;
